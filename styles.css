@@ -1,0 +1,176 @@
+/* Estiliza o corpo da página */
+body {
+    font-family: "Chakra Petch", sans-serif;
+    background-color: #f4f4f9;
+    color: #222831;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza o cabeçalho */
+header {
+    background-color: #30475E;
+    color: #f5f7f8;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.3rem;
+}
+
+/* Seção de pesquisa */
+.search-section {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.search-bar input {
+    width: 40%;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    border: 1px solid #ddd;
+}
+
+.search-bar button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #30475E;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #222831;
+}
+
+/* Resultados da pesquisa */
+.resultados-pesquisa {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-resultado {
+    background: white;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 1rem;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.item-resultado:hover {
+    transform: scale(1.02);
+}
+
+.item-resultado a {
+    color: #30475E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.item-resultado a:hover {
+    text-decoration: underline;
+}
+
+/* Seção de times em destaque */
+.featured-section {
+    background-color: #fff;
+    padding: 3rem;
+    text-align: center;
+}
+
+.featured-teams {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.team-card {
+    background-color: #f5f7f8;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+    transform: scale(1.05);
+}
+
+.team-card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.team-card h3 {
+    margin: 0.5rem 0;
+    color: #30475E;
+}
+
+.team-card p {
+    color: #222831;
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    background-color: #30475E;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .search-bar input {
+        width: 70%;
+    }
+
+    .featured-teams {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .search-bar input {
+        width: 80%;
+    }
+
+    .featured-section {
+        padding: 1rem;
+    }
+
+    .team-card {
+        width: 200px;
+    }
+}
