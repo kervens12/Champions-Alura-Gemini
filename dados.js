@@ -1,7 +1,7 @@
 let timesChampions = [
     {
         titulo: "Grupo A",
-        descricao: "Times que compõem o Grupo A da Champions League 2024/2025",
+        descricao: "Times que compõem o Grupo A da Champions League 2023/2024",
         times: [
             { nome: "Bayern", pais: "Alemanha", tituloChampions: 6, link: "https://fcbayern.com" },
             { nome: "Manchester United", pais: "Inglaterra", tituloChampions: 3, link: "https://www.manutd.com" },
@@ -12,7 +12,7 @@ let timesChampions = [
     
     {
         titulo: "Grupo B",
-        descricao: "Times que compõem o Grupo B da Champions League 2024/2025",
+        descricao: "Times que compõem o Grupo B da Champions League 2023/2024",
         times: [
             { nome: "Sevilla", pais: "Espanha", tituloChampions: 0, link: "https://www.sevillafc.es" },
             { nome: "Arsenal", pais: "Inglaterra", tituloChampions: 0, link: "https://www.arsenal.com" },
@@ -23,7 +23,7 @@ let timesChampions = [
 
     {
         titulo: "Grupo C",
-        descricao: "Times que compõem o Grupo C da Champions League 2024/2025",
+        descricao: "Times que compõem o Grupo C da Champions League 2023/2024",
         times: [
             { nome: "Napoli", pais: "Itália", tituloChampions: 0, link: "https://www.sscnapoli.it" },
             { nome: "Real Madrid", pais: "Espanha", tituloChampions: 14, link: "https://www.realmadrid.com/pt-PT" },
@@ -34,7 +34,7 @@ let timesChampions = [
 
     {
         titulo: "Grupo D",
-        descricao: "Times que compõem o Grupo D da Champions League 2024/2025",
+        descricao: "Times que compõem o Grupo D da Champions League 2023/2024",
         times: [
             { nome: "Benfica", pais: "Portugal", tituloChampions: 2, link: "https://www.slbenfica.pt" },
             { nome: "Inter de Milão", pais: "Itália", tituloChampions: 3, link: "https://www.inter.it" },
@@ -45,7 +45,7 @@ let timesChampions = [
 
     {
         titulo: "Grupo E",
-        descricao: "Times que compõem o Grupo E da Champions League 2024/2025",
+        descricao: "Times que compõem o Grupo E da Champions League 2023/2024",
         times: [
             { nome: "Feyenoord", pais: "Holanda", tituloChampions: 1, link: "https://www.feyenoord.com" },
             { nome: "Atlético Madrid", pais: "Espanha", tituloChampions: 0, link: "https://en.atleticodemadrid.com" },
@@ -56,7 +56,7 @@ let timesChampions = [
 
     {
         titulo: "Grupo F",
-        descricao: "Times que compõem o Grupo F da Champions League 2024/2025",
+        descricao: "Times que compõem o Grupo F da Champions League 2023/2024",
         times: [
             { nome: "Paris Saint-Germain", pais: "França", tituloChampions: 0, link: "https://en.psg.fr" },
             { nome: "Borussia Dortmund", pais: "Alemanha", tituloChampions: 1, link: "https://www.bvb.de" },
@@ -67,7 +67,7 @@ let timesChampions = [
 
     {
         titulo: "Grupo G",
-        descricao: "Times que compõem o Grupo G da Champions League 2024/2025",
+        descricao: "Times que compõem o Grupo G da Champions League 2023/2024",
         times: [
             { nome: "Manchester City", pais: "Inglaterra", tituloChampions: 1, link: "https://www.mancity.com" },
             { nome: "Leipzig", pais: "Alemanha", tituloChampions: 0, link: "https://rbleipzig.com" },
@@ -78,7 +78,7 @@ let timesChampions = [
 
     {
         titulo: "Grupo H",
-        descricao: "Times que compõem o Grupo H da Champions League 2024/2025",
+        descricao: "Times que compõem o Grupo H da Champions League 2023/2024",
         times: [
             { nome: "Barcelona", pais: "Espanha", tituloChampions: 5, link: "https://www.fcbarcelona.com" },
             { nome: "Porto", pais: "Portugal", tituloChampions: 2, link: "https://www.fcporto.pt" },
